@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Release" href="../release/index.html" /><link rel="prev" title="🚧LookAt" href="vrm1_lookat.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="SpringBone" href="vrm1_springbone.html" /><link rel="prev" title="ControlRig: Working with Unnormalized Models" href="vrm1_controlrig.html" />
 
     <meta name="generator" content="sphinx-4.3.2, furo 2022.01.02"/>
-        <title>FirstPerson - UniVRM Programming Document documentation</title>
+        <title>FirstPerson - UniVRM Programming documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?digest=df49af52631e7917044a9c21a57f7b83170a6dd0" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?digest=fade93df149f7c5fedb3ff897f799dc7d283b420" />
@@ -123,7 +123,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../index.html"><div class="brand">UniVRM Programming Document  documentation</div></a>
+      <a href="../index.html"><div class="brand">UniVRM Programming  documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -148,7 +148,7 @@
 <a class="sidebar-brand" href="../index.html">
   
   
-  <span class="sidebar-brand-text">UniVRM Programming Document  documentation</span>
+  <span class="sidebar-brand-text">UniVRM Programming  documentation</span>
   
 </a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
   <input class="sidebar-search" placeholder=Search name="q" aria-label="Search">
@@ -156,56 +156,64 @@
   <input type="hidden" name="area" value="default">
 </form>
 <div id="searchbox"></div><div class="sidebar-tree">
-  <ul class="current">
+  <p class="caption" role="heading"><span class="caption-text">Development</span></p>
+<ul class="current">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../api/index.html">API</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../api/sample/index.html">Sample</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../api/sample/SimpleViewer.html">SimpleViewer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/sample/RuntimeExporterSample.html">RuntimeExporter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/sample/FirstPersonSample.html">FirstPersonSample</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../api/sample/AnimationBridgeSample.html">AnimationBridgeSample</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../api/firstperson.html">VRMFirstPersonの使い方</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_36_update.html"><code class="docutils literal notranslate"><span class="pre">v0.36</span></code> GltfUpdate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_44_runtime_import.html"><code class="docutils literal notranslate"><span class="pre">v0.44</span></code> RuntimeImport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_58_blendshape.html"><code class="docutils literal notranslate"><span class="pre">v0.58</span></code> BlendShapeProxy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/how_to_impl_extension.html"><code class="docutils literal notranslate"><span class="pre">v0.63.2</span></code> glTF拡張の実装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_68_runtime_import.html"><code class="docutils literal notranslate"><span class="pre">v0.68</span></code> RuntimeImport DisposeOnGameObjectDestroyed(obsolete)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_76_texture_deserializer.html"><code class="docutils literal notranslate"><span class="pre">v0.76</span></code> ITextureDeserializer(Texture Loader)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_77_runtime_import.html"><code class="docutils literal notranslate"><span class="pre">v0.77</span></code> RuntimeImport RuntimeGltfInstance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_79_runtime_import.html"><code class="docutils literal notranslate"><span class="pre">v0.79</span></code> RuntimeImport GltfData</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_82_glb_import.html"><code class="docutils literal notranslate"><span class="pre">v0.82.1</span></code> GlbImport GltfData</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_82_runtime_import.html"><code class="docutils literal notranslate"><span class="pre">v0.82.1</span></code> RuntimeImport VRMData</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/how_to_customize_material_import.html"><code class="docutils literal notranslate"><span class="pre">v0.82</span></code> Import 時に生成される Material をカスタマイズする</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/fast_spring_bone.html"><code class="docutils literal notranslate"><span class="pre">v0.85</span></code> FastSpringBoneについて</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_87_runtime_import.html"><code class="docutils literal notranslate"><span class="pre">v0.87</span></code> RuntimeImport 非同期ロード</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_95_dispose.html"><code class="docutils literal notranslate"><span class="pre">v0.95</span></code> GltfData.Dispose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_95_highlevel.html"><code class="docutils literal notranslate"><span class="pre">v0.95</span></code> High-level API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_96_1_use_gamma_colorspace.html"><code class="docutils literal notranslate"><span class="pre">v0.96.1</span></code> use gamma color space</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_106_spring_manual_update.html"><code class="docutils literal notranslate"><span class="pre">v0.106</span></code> SpringBone の手動更新</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api/0_112_urp.html"><code class="docutils literal notranslate"><span class="pre">v0.112</span></code> MToon の URP 対応</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../build.html">Build Application</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../implementation/index.html">Implementation note</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../implementation/index.html">Implementation note</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../implementation/runtime_resource_management.html">Runtime のリソース管理について</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../implementation/texture_manipulation.html">Texture関連</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../implementation/coordinate.html">Coordinate conversion</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../implementation/fast_spring_bone.html">FastSpringBoneについて</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../implementation/first_person.html">VRアプリケーションの FirstPerson 設定による Renderer の可視制御</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../implementation/scripted_importer.html">ScriptedImporter の実装</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../implementation/transparent_zwrite.html">UnlitTransparentZWrite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../implementation/format.html">glbフォーマット概説</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../gltf/index.html">glTF</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../gltf/0_82_glb_import.html">GlbImport(0.82) GltfData</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../gltf/how_to_customize_material_import.html">Import 時に生成される Material をカスタマイズする</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../gltf/0_36_update.html">GltfUpdate(0.36)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../gltf/format.html">glbフォーマット概説</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../gltf/how_to_impl_extension.html">The implementation of glTF extensions(0.63.2)</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../unihumanoid/index.html">UniHumanoid</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../vrm0/index.html">VRM</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../vrm0/sample/index.html">Sample</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../vrm0/sample/SimpleViewer.html">SimpleViewer</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vrm0/sample/RuntimeExporterSample.html">RuntimeExporter</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vrm0/sample/FirstPersonSample.html">FirstPersonSample</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../vrm0/sample/AnimationBridgeSample.html">AnimationBridgeSample</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_87_runtime_import.html">RuntimeImport(0.87) 非同期ロード</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_82_runtime_import.html">RuntimeImport(0.82) VRMData</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_79_runtime_import.html">RuntimeImport(0.79) GltfData</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_77_runtime_import.html">RuntimeImport(0.77) RuntimeGltfInstance</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_68_runtime_import.html">RuntimeImport(0.68) DisposeOnGameObjectDestroyed(obsolete)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_44_runtime_import.html">RuntimeImport(0.44)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/0_58_blendshape.html">BlendShapeProxy(0.58)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../vrm0/firstperson.html">How to use VRMFirstPerson</a></li>
-</ul>
-</li>
-<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">VRM-1.0(β)</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="vrm1_runtime_load.html">RuntimeLoad</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vrm1_get_humanoid.html">🚧Humanoid</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vrm1_expression.html">🚧Expression</a></li>
-<li class="toctree-l2"><a class="reference internal" href="vrm1_lookat.html">🚧LookAt</a></li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="index.html">VRM-1.0 API</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="folder_structure.html">Folder structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api_update.html">API update</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vrm1_load.html">RuntimeLoad</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vrm1_controlrig.html">ControlRig: Working with Unnormalized Models</a></li>
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">FirstPerson</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vrm1_springbone.html">SpringBone</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vrm1_migration.html">Migration</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../release/index.html">Release</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../release/unitypackage.html">バージョン毎の UnityPackage</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../release/055/index.html">～v0.55 (Unity-5.6. NET-3.5) Recommended version v0.55</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Other</span></p>
+<ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../release/index.html">Release</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../release/unitypackage.html">UnityPackage for each version</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../release/055/index.html">～v0.55 (Unity-5.6. NET-3.5) Recommended version v0.55</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../release/055/v0.40.html">v0.40</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/055/v0.41.html">v0.41</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/055/v0.42.html">v0.42</a></li>
@@ -224,7 +232,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../release/055/v0.55.0.html">v0.55.0</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../release/056/index.html">v0.56～v0.67 (Unity-2018.4) 推奨バージョンv0.66</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../release/056/index.html">v0.56～v0.67 (Unity-2018.4) 推奨バージョンv0.66</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../release/056/v0.56.0.html">v0.56.0: 最低バージョンを Unity-2018.4 に更新</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/056/v0.57.0.html">v0.57.0: ボーン名重複の自動リネーム</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/056/v0.58.0.html">v0.58.0: テクスチャサイズの適正な考慮</a></li>
@@ -239,7 +247,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../release/056/v0.67.0.html">v0.67.0: UniJson 単純化</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../release/068/index.html">v0.68-v0.78 (Unity-2018.4) Development</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../release/068/index.html">v0.68-v0.78 (Unity-2018.4) Development</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" role="switch" type="checkbox"/><label for="toctree-checkbox-8"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../release/068/v0.68.0.html">v0.68.0: ImporterContext, ScriptedImporter(glb/gltf), remove DepthFirstScheduler</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/068/v0.69.0.html">v0.69.0: MetallicRoughnessOcclusionテクスチャー</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/068/v0.70.0.html">v0.70.0: EncodeToPng に失敗するエラーを修正</a></li>
@@ -253,7 +261,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../release/068/v0.78.0.html">v0.78.0: ScriptdImporter の改修</a></li>
 </ul>
 </li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../release/079/index.html">v0.79～ (Unity-2019.4) Latest Version</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../release/079/index.html">v0.79～ (Unity-2019.4) Latest Version</a><input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" role="switch" type="checkbox"/><label for="toctree-checkbox-9"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="../release/079/v0.79.0.html">v0.79.0: Road to 1.0</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/079/v0.80.0.html">v0.80.0: Road to 1.0. Support Unity-2019.4LTS+</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/079/v0.81.0.html">v0.81.0: Road to 1.0. Reorganize unitypackage</a></li>
@@ -264,16 +272,49 @@
 <li class="toctree-l3"><a class="reference internal" href="../release/079/v0.86.0.html">v0.86.0: Road to 1.0. [1.0]FastSpringBone</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/079/v0.87.0.html">v0.87.0: Road to 1.0.</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../release/079/v0.88.0.html">v0.88.0: Road to 1.0.</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.89.0.html">v0.89.0: 1.0準備</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.90.0.html">v0.90.0: 1.0準備</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.91.0.html">v0.91.0: 1.0準備</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.92.0.html">v0.92.0: 1.0準備</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.93.0.html">v0.93.0: 1.0準備</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.94.0.html">v0.94.0: 1.0preparation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.89.0.html">v0.89.0: Road to 1.0.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.90.0.html">v0.90.0: NativeArray</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.91.0.html">v0.91.0: Road to 1.0.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.92.0.html">v0.92.0: Road to 1.0.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.93.0.html">v0.93.0: Road to 1.0.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.94.0.html">v0.94.0: Road to 1.0.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.95.1.html">v0.95.1: GltfData.Dispose</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.96.0.html">v0.96.0: ⚠️ ReadMesh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.96.1.html">v0.96.1: ⚠️ build/exporter bug fix</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.96.2.html">v0.96.2: ⚠️ fix BlendShape Import bug</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.97.0.html">v0.96.0..v0.97.0: Bug fix &amp; update MeshUtil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.98.0.html">v0.97.0..v0.98.0: Update constraint of 1.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/079/v0.99.0.html">v0.98.0..v0.99.0: KHR_mesh_quantization, KHR_materials_emissive_strength</a></li>
 </ul>
 </li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../release/100/index.html">v0.100～ (Unity-2020.3) 最新版をご利用ください</a><input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" role="switch" type="checkbox"/><label for="toctree-checkbox-10"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.100.0.html">v0.99.0..v0.100.0: Fix for Unity-2021</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.101.0.html">v0.100.0..v0.101.0: Problems with the combination of zero bone weights and root bones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.102.0.html">v0.101.0..v0.102.0: fixed RecalculateNormals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.103.0.html">v0.102.0..v0.103.0: VRM-1.0 RC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.104.0.html">v0.103.0..v0.104.0: vrm-1.0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.105.0.html">v0.105.0: ⚠️ Update SimpleViewer sample</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.106.0.html">v0.106.0: Fix IL2CPP error and improve vrm-1.0 API</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.107.0.html">v0.107.0: ⚠️ fix Emission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.108.0.html">v0.108.0: Fixed an error when importing directly under Assets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.109.0.html">v0.109.0: experimental VRMC_vrm_animation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/100/v0.111.0.html">v0.111.0 last version for Unity-2020</a></li>
 </ul>
 </li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../release/112/index.html">v0.112～ (Unity-2021.3) 最新版をご利用ください</a><input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" role="switch" type="checkbox"/><label for="toctree-checkbox-11"><div class="visually-hidden">Toggle child pages in navigation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../release/112/v0.112.0.html">v0.112.0 Unity-2021.3LTS and URP MToon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../release/112/v0.113.0.html">v0.113.0 VrmAnimation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../release/how_to_release.html">リリース作業手順</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../unihumanoid/index.html">UniHumanoid</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">external</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/vrm-c/UniVRM">UniVRM(github)</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://vrm.dev/">VRM</a></li>
 </ul>
 
 </div>
@@ -302,61 +343,115 @@
         <article role="main">
           <section class="tex2jax_ignore mathjax_ignore" id="firstperson">
 <h1>FirstPerson<a class="headerlink" href="#firstperson" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference internal" href="../implementation/first_person.html"><span class="doc">FirstPerson と Renderer の可視制御</span></a></p>
+<p><a class="reference internal" href="../implementation/first_person.html"><span class="doc">FirstPerson and Renderer visibility control</span></a></p>
+<div class="warning admonition">
+<p class="admonition-title">It is a function for VR</p>
+<p>When using a VRM model as a VR avatar, the view is obstructed if the model’s head mesh is visible in the first person view.To solve this, it becomes a function to change the visibility attribute of the mesh in the VRHMD Camera’s first person perspective (FirstPerson) and other perspectives (ThirdPerson).</p>
+</div>
+<section id="project">
+<h2>Project Settings<a class="headerlink" href="#project" title="Permalink to this headline">¶</a></h2>
+<p>UniVRMの推奨する VR 向けのカメラ構成です。</p>
+<p>Consider two types of cameras: cameras representing head-mounted displays and other cameras.UniVRM defaults to Layer 9 <code class="docutils literal notranslate"><span class="pre">VRMFirstPersonOnly</span></code> and Layer 10 <code class="docutils literal notranslate"><span class="pre">VRMThirdPersonOnly</span></code>.The two layers can also be specified with an argument when loading the runtime.</p>
+<div class="admonition-vrmfirstpersononly admonition">
+<p class="admonition-title">VRMFirstPersonOnly</p>
+<p>FIRSTPERSON_ONLY_LAYER(The gameObject that specifies this layer disappears from other cameras)</p>
+<p>Example: Special use such as a competition?</p>
+</div>
+<div class="admonition-vrmthirdpersononly admonition">
+<p class="admonition-title">VRMThirdPersonOnly</p>
+<p>THIRDPERSON_ONLY_LAYER(The gameObject that specifies this layer disappears from the head-mounted display)</p>
+<p>Example: Suppress the drawing of the avatar’s head, hair, glasses, etc. so that the front can be seen</p>
+</div>
+<p>Please set <code class="docutils literal notranslate"><span class="pre">VRMFirstPersonOnly</span></code> and<code class="docutils literal notranslate"> <span class="pre">VRMThirdPersonOnly</span></code> to <code class="docutils literal notranslate"><span class="pre">Project</span> <span class="pre">Settings</span></code>-<code class="docutils literal notranslate"><span class="pre">Tags</span> <span class="pre">and</span> <span class="pre">Layers</span></code>.</p>
+<figure class="align-default" id="id2">
+<img alt="../_images/tags_layers.jpg" src="../_images/tags_layers.jpg"/>
+<figcaption>
+<p><span class="caption-text">Tags &amp; Layers</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+<div class="info admonition">
+<p class="admonition-title">Default layer number</p>
+<p>The default is <code class="docutils literal notranslate"><span class="pre">FirstPerson</span> <span class="pre">=</span> <span class="pre">9</span></code>, <code class="docutils literal notranslate"><span class="pre">ThirdPerson</span> <span class="pre">=</span> <span class="pre">10</span></code>.</p>
+<p>Can be specified as an argument to <code class="docutils literal notranslate"><span class="pre">FirstPerson.SetupAsync</span></code>.</p>
+<div class="highlight-csharp notranslate"><div class="highlight"><pre><span></span><span class="kt">var</span><span class="w"> </span><span class="n">created</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">controller</span><span class="p">.</span><span class="n">Vrm</span><span class="p">.</span><span class="n">FirstPerson</span><span class="p">.</span><span class="n">SetupAsync</span><span class="p">(</span>
+<span class="w">    </span><span class="n">controller</span><span class="p">.</span><span class="n">gameObject</span><span class="p">,</span><span class="w"> </span><span class="n">firstPersonOnlyLayer</span><span class="p">:</span><span class="w"> </span><span class="m">9</span><span class="p">,</span><span class="w"> </span><span class="n">thirdPersonOnlyLayer</span><span class="p">:</span><span class="w"> </span><span class="m">10</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="id1">
+<h2>Camera configuration<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<section id="firstperson-maincamera-cullingmask">
+<h3>FirstPerson: MainCamera の CullingMask<a class="headerlink" href="#firstperson-maincamera-cullingmask" title="Permalink to this headline">¶</a></h3>
+<p>Place a VR camera (HMD) in the scene and check FirstPerson of <code class="docutils literal notranslate"><span class="pre">CullingMask</span></code>.</p>
+<div class="info admonition">
+<p class="admonition-title">Camera for VR</p>
+<p>A first-person rendering camera for VR. This is usually the <code class="docutils literal notranslate"><span class="pre">main</span></code> camera.. This is usually the <code class="docutils literal notranslate"><span class="pre">main</span></code> camera.</p>
+</div>
+<figure class="align-default" id="id3">
+<img alt="../_images/check_firstperson.jpg" src="../_images/check_firstperson.jpg"/>
+<figcaption>
+<p><span class="caption-text">FirstPerson</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+<section id="thirdperson-othercamera-cullingmask">
+<h3>ThirdPerson: OtherCamera の CullingMask<a class="headerlink" href="#thirdperson-othercamera-cullingmask" title="Permalink to this headline">¶</a></h3>
+<p>Place an additional camera in the scene other than the HMD and check ThirdPerson for <code class="docutils literal notranslate"><span class="pre">CullingMask</span></code>.</p>
+<div class="info admonition">
+<p class="admonition-title">Third person camera</p>
+<p>RenderTexture cameras for mirrors and streams.</p>
+</div>
+<figure class="align-default" id="id4">
+<img alt="../_images/check_thirdperson.jpg" src="../_images/check_thirdperson.jpg"/>
+<figcaption>
+<p><span class="caption-text">FirstPerson</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
 <section id="runtime-firstperson">
 <h2>Enable FirstPerson function at runtime.<a class="headerlink" href="#runtime-firstperson" title="Permalink to this headline">¶</a></h2>
 <p>The VR First Person settings.</p>
 <ol class="arabic simple">
 <li><p>Load</p></li>
 <li><p>Get Vrm10Instance</p></li>
-<li><p>Call <code class="docutils literal notranslate"><span class="pre">controller.Vrm.FirstPerson.SetupAsync</span></code></p></li>
+<li><p>Call <code class="docutils literal notranslate"><span class="pre">Vrm10Instance.Vrm.FirstPerson.SetupAsync</span></code></p></li>
 <li><p>ShowMeshes</p></li>
 </ol>
-<div class="highlight-csharp notranslate"><div class="highlight"><pre><span></span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="p">&lt;</span><span class="n">RuntimeGltfInstance</span><span class="p">&gt;</span><span class="w"> </span><span class="n">LoadAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">path</span><span class="p">)</span><span class="w"></span>
-<span class="p">{</span><span class="w"></span>
-<span class="w">    </span><span class="kt">var</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">GlbFileParser</span><span class="p">(</span><span class="n">path</span><span class="p">).</span><span class="n">Parse</span><span class="p">();</span><span class="w"></span>
-<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(!</span><span class="n">Vrm10Data</span><span class="p">.</span><span class="n">TryParseOrMigrate</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="k">true</span><span class="p">,</span><span class="w"> </span><span class="k">out</span><span class="w"> </span><span class="n">Vrm10Data</span><span class="w"> </span><span class="n">vrm</span><span class="p">))</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Exception</span><span class="p">(</span><span class="s">"vrm parse error !"</span><span class="p">);</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="w">    </span><span class="k">using</span><span class="w"> </span><span class="p">(</span><span class="kt">var</span><span class="w"> </span><span class="n">loader</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vrm10Importer</span><span class="p">(</span><span class="n">vrm</span><span class="p">))</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
+<div class="highlight-csharp notranslate"><div class="highlight"><pre><span></span><span class="k">async</span><span class="w"> </span><span class="n">Task</span><span class="o">&lt;</span><span class="n">RuntimeGltfInstance</span><span class="o">&gt;</span><span class="w"> </span><span class="n">LoadAsync</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">path</span><span class="p">)</span>
+<span class="p">{</span>
+<span class="w">    </span><span class="kt">var</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">GlbFileParser</span><span class="p">(</span><span class="n">path</span><span class="p">).</span><span class="n">Parse</span><span class="p">();</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">Vrm10Data</span><span class="p">.</span><span class="n">TryParseOrMigrate</span><span class="p">(</span><span class="n">data</span><span class="p">,</span><span class="w"> </span><span class="k">true</span><span class="p">,</span><span class="w"> </span><span class="k">out</span><span class="w"> </span><span class="n">Vrm10Data</span><span class="w"> </span><span class="n">vrm</span><span class="p">))</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="n">Exception</span><span class="p">(</span><span class="s">"vrm parse error !"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="k">using</span><span class="w"> </span><span class="p">(</span><span class="kt">var</span><span class="w"> </span><span class="n">loader</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Vrm10Importer</span><span class="p">(</span><span class="n">vrm</span><span class="p">))</span>
+<span class="w">    </span><span class="p">{</span>
 <span class="w">        </span><span class="c1">// 1.</span>
-<span class="w">        </span><span class="kt">var</span><span class="w"> </span><span class="n">instance</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">loader</span><span class="p">.</span><span class="n">LoadAsync</span><span class="p">();</span><span class="w"></span>
+<span class="w">        </span><span class="kt">var</span><span class="w"> </span><span class="n">instance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">loader</span><span class="p">.</span><span class="n">LoadAsync</span><span class="p">();</span>
 
 <span class="w">        </span><span class="c1">// 2.</span>
-<span class="w">        </span><span class="kt">var</span><span class="w"> </span><span class="n">controller</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="n">instance</span><span class="p">.</span><span class="n">GetComponent</span><span class="p">&lt;</span><span class="n">Vrm10Instance</span><span class="p">&gt;();</span><span class="w"></span>
+<span class="w">        </span><span class="kt">var</span><span class="w"> </span><span class="n">controller</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">instance</span><span class="p">.</span><span class="n">GetComponent</span><span class="o">&lt;</span><span class="n">Vrm10Instance</span><span class="o">&gt;</span><span class="p">();</span>
 
 <span class="w">        </span><span class="c1">// 3. The headless model that created is added to instance</span>
-<span class="w">        </span><span class="k">await</span><span class="w"> </span><span class="n">controller</span><span class="p">.</span><span class="n">Vrm</span><span class="p">.</span><span class="n">FirstPerson</span><span class="p">.</span><span class="n">SetupAsync</span><span class="p">(</span><span class="n">controller</span><span class="p">.</span><span class="n">gameObject</span><span class="p">);</span><span class="w"></span>
+<span class="w">        </span><span class="k">await</span><span class="w"> </span><span class="n">controller</span><span class="p">.</span><span class="n">Vrm</span><span class="p">.</span><span class="n">FirstPerson</span><span class="p">.</span><span class="n">SetupAsync</span><span class="p">(</span><span class="n">controller</span><span class="p">.</span><span class="n">gameObject</span><span class="p">);</span>
 
 <span class="w">        </span><span class="c1">// 4. </span>
-<span class="w">        </span><span class="n">instance</span><span class="p">.</span><span class="n">ShowMeshes</span><span class="p">();</span><span class="w"></span>
+<span class="w">        </span><span class="n">instance</span><span class="p">.</span><span class="n">ShowMeshes</span><span class="p">();</span>
 
-<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">instance</span><span class="p">;</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">instance</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
 </div>
 </section>
-<section id="vrm-vr">
-<h2>Recommended camera layer settings<a class="headerlink" href="#vrm-vr" title="Permalink to this headline">¶</a></h2>
-<p>Suppose your scene has a camera that represents a head-mounted display and other cameras.</p>
+<section id="sample">
+<h2>Sample<a class="headerlink" href="#sample" title="Permalink to this headline">¶</a></h2>
+<p>複数のカメラを配置したサンプルシーンがあります。</p>
 <ul class="simple">
-<li><p>FIRSTPERSON_ONLY_LAYER(The gameObject that specifies this layer disappears from other cameras)</p></li>
-<li><p>THIRDPERSON_ONLY_LAYER(The gameObject that specifies this layer disappears from the head-mounted display)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Assets/VRM10_Samples/VRM10FirstPersonSample</span></code></p></li>
 </ul>
-<p>Stops drawing the avatar from the head-mounted display perspective and makes it visible to other cameras.</p>
-<p>Example: Stop drawing the avatar’s head so you can see the front</p>
-<p>VRM reserves layers named <code class="docutils literal notranslate"><span class="pre">VRMFirstPersonOnly</span></code> and<code class="docutils literal notranslate"> <span class="pre">VRMThirdPersonOnly</span></code>.</p>
-<p>Please set <code class="docutils literal notranslate"><span class="pre">VRMFirstPersonOnly</span></code> and<code class="docutils literal notranslate"> <span class="pre">VRMThirdPersonOnly</span></code> to <code class="docutils literal notranslate"><span class="pre">Project</span> <span class="pre">Settings</span></code>-<code class="docutils literal notranslate"><span class="pre">Tags</span> <span class="pre">and</span> <span class="pre">Layers</span></code>. In the sample, we assign <code class="docutils literal notranslate"><span class="pre">9</span></code> and<code class="docutils literal notranslate"> <span class="pre">10</span></code> to each.</p>
-</section>
-<section id="layer">
-<h2>Specify layer at initialization<a class="headerlink" href="#layer" title="Permalink to this headline">¶</a></h2>
-<p>It can be specified with an additional argument.</p>
-<div class="highlight-csharp notranslate"><div class="highlight"><pre><span></span><span class="kt">var</span><span class="w"> </span><span class="n">created</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="n">controller</span><span class="p">.</span><span class="n">Vrm</span><span class="p">.</span><span class="n">FirstPerson</span><span class="p">.</span><span class="n">SetupAsync</span><span class="p">(</span><span class="n">controller</span><span class="p">.</span><span class="n">gameObject</span><span class="p">,</span><span class="w"> </span><span class="n">firstPersonOnlyLayer</span><span class="p">:</span><span class="w"> </span><span class="m">9</span><span class="p">,</span><span class="w"> </span><span class="n">thirdPersonOnlyLayer</span><span class="p">:</span><span class="w"> </span><span class="m">10</span><span class="p">);</span><span class="w"></span>
-</pre></div>
-</div>
 </section>
 </section>
 
@@ -365,23 +460,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../release/index.html">
+          <a class="next-page" href="vrm1_springbone.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Release</div>
+                <div class="title">SpringBone</div>
               </div>
               <svg><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="vrm1_lookat.html">
+          <a class="prev-page" href="vrm1_controlrig.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">🚧LookAt</div>
+                <div class="title">ControlRig: Working with Unnormalized Models</div>
                 
               </div>
             </a>
@@ -412,9 +507,14 @@
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">FirstPerson</a><ul>
+<li><a class="reference internal" href="#project">Project Settings</a></li>
+<li><a class="reference internal" href="#id1">Camera configuration</a><ul>
+<li><a class="reference internal" href="#firstperson-maincamera-cullingmask">FirstPerson: MainCamera の CullingMask</a></li>
+<li><a class="reference internal" href="#thirdperson-othercamera-cullingmask">ThirdPerson: OtherCamera の CullingMask</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#runtime-firstperson">Enable FirstPerson function at runtime.</a></li>
-<li><a class="reference internal" href="#vrm-vr">Recommended camera layer settings</a></li>
-<li><a class="reference internal" href="#layer">Specify layer at initialization</a></li>
+<li><a class="reference internal" href="#sample">Sample</a></li>
 </ul>
 </li>
 </ul>
